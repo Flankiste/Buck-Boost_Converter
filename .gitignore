@@ -1,0 +1,58 @@
+# ==========================================
+# Fichier .gitignore pour projet KiCad
+# ==========================================
+
+# --- Fichiers temporaires génériques ---
+*.000
+*.bak
+*.bck
+*.tmp
+*~
+~*
+
+# --- Sauvegardes automatiques de KiCad ---
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+*-save.pro
+*-save.kicad_pcb
+
+# --- Fichiers de cache et d'état local ---
+fp-info-cache
+*-cache*
+*.kicad_prl          # Paramètres locaux du projet (spécifiques à la machine)
+~*.lck               # Fichiers de verrouillage
+
+# --- Fichiers de netlist exportés depuis Eeschema ---
+*.net
+
+# --- Fichiers d'autorouteur exportés depuis Pcbnew ---
+*.dsn
+*.ses
+
+# --- Fichiers BOM (Bill of Materials) exportés ---
+*.xml
+*.csv
+*.tsv
+bom/
+
+# --- Dossiers de sauvegarde de secours (rescue) ---
+rescue-backup/
+
+# --- Archives de sauvegarde (KiCad 6.0+) ---
+**/*-backups/*.zip
+
+# --- Exports Gerber et sorties de fabrication ---
+out/
+# Ajoutez ici d'autres dossiers d'export si vous utilisez des scripts
+# ou des actions automatiques pour générer vos fichiers de fabrication.
+
+# --- Fichiers potentiels liés à l'environnement de développement ---
+# (Décommentez si nécessaire)
+# *.pyc
+# __pycache__/
+# .venv/
+# .idea/
+# .vscode/

@@ -1,4 +1,4 @@
-26763798583755975
+26770918686463470
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -384,6 +384,20 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Button
+Sans titre
+
+
+0
+0
+0
+Button
+TL3305
+
+
+0
+4
+4
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -70902,6 +70916,13 @@ module pcb
 0
 7
 7
+Mosfets
+PowerPAK_SO-8_Single
+PowerPAK SO-8 Single (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72599/72599.pdf)
+PowerPAK SO-8 Single
+0
+9
+5
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf
@@ -93659,7 +93680,14 @@ Potentiometer vertical vishay
 0
 3
 3
-Power_Inductor
+Power_Inductor_THT
+L_Bourns-SRU1038_10.0x10.0mm
+Bourns SRU1028 series SMD inductor, https://www.bourns.com/docs/Product-Datasheets/SRU1028.pdf
+Bourns SRU1028 SMD inductor
+0
+2
+2
+Power_Inductor_THT
 VER2923
 
 
